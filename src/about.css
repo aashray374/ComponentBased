@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cardholder {
+  margin-top: 3.5rem;
+  justify-content: center;
+  display: flex;
+  padding:10px;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px; 
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.heading{
+  font-size: 50px;
+  text-align: center;
+  margin:2rem;
+}
+
+body{
+  background-color: #b9bcbd;
+}
